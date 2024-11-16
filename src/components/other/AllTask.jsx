@@ -8,7 +8,7 @@ const AllTask = () => {
    
   return (
     <div className="p-5 rounded mt-5">
-    {/* Header Section */}
+
     <div className="bg-red-400 mb-2 py-2 px-4 flex flex-wrap lg:flex-nowrap justify-between rounded">
       <h2 className="text-lg font-medium w-full lg:w-1/5 mb-2 lg:mb-0">Employee Name</h2>
       <h3 className="text-lg font-medium w-full lg:w-1/5 mb-2 lg:mb-0">New Task</h3>
@@ -17,7 +17,7 @@ const AllTask = () => {
       <h5 className="text-lg font-medium w-full lg:w-1/5">Failed</h5>
     </div>
   
-    {/* Dynamic Data Section */}
+
     <div>
       {userData.map((elem, idx) => (
         <div
